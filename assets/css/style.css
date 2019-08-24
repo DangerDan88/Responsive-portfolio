@@ -1,0 +1,206 @@
+ul {
+    
+    border: 2px solid #ffffff;
+    display: inline;
+    list-style: none;
+   text-align: left;
+   margin-left: auto;
+   margin-right: auto;
+   font-size: 25px;
+  
+   
+   
+}
+
+#logo {
+    border: 2px solid #4aaaa5;
+    margin-left: auto;
+    margin-right: auto;
+    float: left;
+    width: 29%;
+    padding-left: 20px;
+    background-color: #4aaaa5;
+    
+}
+
+p {
+    border: 5px solid #dddddd;
+    color: #777777
+    
+
+}
+
+h1 {
+    border: 2px solid red;
+    display: inline;
+    color: #ffffff;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+#wrapper::after {
+    content: "";
+    display: block;
+    clear: both;
+    
+}
+
+#mainbio {
+    text-align: center;
+    width: 960px;
+    background-image: url("../images/email-pattern.jpeg");
+    
+    
+    
+}
+
+#navbar {
+   
+   
+
+  
+}
+
+#navbar li {
+    display: inline;
+    width: 50px;
+    padding: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+    
+}
+
+
+body {
+    margin: auto;
+    
+    background-image: url("../images/email-pattern.jpeg")
+    
+
+}
+
+footer {
+    clear: both;
+    border-top: 8px solid #4aaaa5;
+    
+    text-align: center;
+    background-color: #777777;
+    height: 30px;
+    width: 100%;
+}
+
+img {
+    float: left;
+}
+
+.border {
+    background-color: #cccccc;
+    width: 960px;
+    border: solid 1px #cccccc;
+}
+
+
+.bottomborder {
+    background-color: #666666;
+    width: 100%;
+    border: solid 1px #dddddd;
+}
+.hello {
+    display: inline-block;
+    float: right;
+    
+
+}
+
+#wrapper {
+    padding: 40px;
+}
+
+
+a {
+    text-decoration: none;
+    color: #777777;
+}
+
+.message {
+    width: 300px;
+}
+
+.contactcontent {
+    border: 2px solid #dddddd;
+    background-color: #ffffff;
+    
+   
+}
+
+form {
+    text-align: left;
+    margin-right: 50px;
+}
+
+.sub {
+    background-color: #4aaaa5;
+    color: #ffffff;
+    padding: 10px;
+}
+
+textarea {
+    height: 150px; width: 400px;
+}
+
+.contentwidth {
+    width: 100%;
+    margin: auto;
+}
+
+.portfoliocontent {
+    
+    margin: auto;
+    border: 5px solid #dddddd;
+    height: 500px;
+    float: left;
+    clear: left;
+}
+
+@media screen and (max-width: 980px) {
+body, .contentwidth, form  {
+    width: 100%;
+    
+}
+
+}
+
+
+@media screen and (max-width: 768px) {
+    body, .contentwidth, .wrapper, #mainbio, form {
+      width: 100%;
+      margin: auto;
+      
+    }
+    p, .border, footer {
+        width: 100%;
+    }
+
+}
+
+
+
+
+@media screen and (max-width: 640px) {
+    #logo {
+        
+        width: 100%;
+        margin-bottom: 40px;
+        text-align: center;
+ 
+}
+body, .border, footer {
+    width: 100%;
+
+
+}
+
+}
